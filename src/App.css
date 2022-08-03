@@ -52,16 +52,35 @@ h1{
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 0;
   height: 100%;
   background: #027144;
   clip-path: circle(600px at right 800px);
 }
 
+.img{
+  position: absolute;
+  z-index: 1;
+  width: 400px;
+}
+
+.title-container{
+  margin-top: 5%;
+}
+
+.container .row .col p{
+  text-align: justify;
+}
+
+.container .row .col .btn{
+  margin-left: 0px;
+  font-size: 15px;
+  color: white;
+}
+
 
 
 .title{
-  margin-top: 10%;
-  margin-left: 5%;
   font-size: 35px;
   width: 600px;
   font-family: Poppins;
@@ -76,8 +95,5 @@ h1{
   font-family: Poppins;
   letter-spacing: 1px;
 }
-
-
-
 
 
