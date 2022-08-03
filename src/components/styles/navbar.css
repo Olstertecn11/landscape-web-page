@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.navbar{
+  background: white;
+}
+
+
+.logo{
+  width:90px;
+}
+
+.btn{
+  margin-left: 20px;
+  border-radius: 25px 25px;
+  border: none;
+  font-family: Poppins;
+  font-weight: 500;
+  color: black;
+  transition: .35s;
+}
+
+.btn:hover{
+  background: #027144;
+  color: white;
+  transition: .55s;
+}
+
+.buttons-form{
+  margin-right: 40px;
+}
+

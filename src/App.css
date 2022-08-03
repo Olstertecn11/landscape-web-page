@@ -62,18 +62,22 @@ h1{
 .title{
   margin-top: 10%;
   margin-left: 5%;
-  font-size: 40px;
+  font-size: 35px;
   width: 600px;
   font-family: Poppins;
   font-weight: 500;
 }
 
 .name{
-  font-size: 45px;
+  font-size: 40px;
   margin-left: 5%;
   color: #027144;
   font-weight: 900;
   font-family: Poppins;
+  letter-spacing: 1px;
 }
+
+
+
 
 
