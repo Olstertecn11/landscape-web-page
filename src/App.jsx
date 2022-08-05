@@ -24,7 +24,9 @@ function App() {
       <div className="container">
       	<div className="row">
 	  <div className="col">
-	    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis atque animi quos assumenda nulla cum maxime suscipit quae veritatis, voluptas unde tempora distinctio adipisci dolores alias molestias laborum culpa nobis!</p>
+	  <p>
+Our lawn and landscape maintenance services are customizable to your needs including: lawn mowing, landscape maintenance, shrub trimming, bed weeding, property clean ups, and leaf removal services. We strive to provide the best lawn care in. Maryland, Virginia and washington If you have a property needing lawn service please contact us.
+	  </p>
 	    <a href="#" className="btn btn-success text-white">Read More</a>
 	  </div>
 	  <div className="col">
