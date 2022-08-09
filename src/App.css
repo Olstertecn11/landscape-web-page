@@ -37,16 +37,6 @@ h1{
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 .circle{
   position: absolute;
   top: 0;
@@ -95,5 +85,47 @@ h1{
   font-family: Poppins;
   letter-spacing: 1px;
 }
+
+
+/* for my tablet */
+@media (min-width: 500px) {
+
+  .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    height: 61%;
+    background: #027144;
+    clip-path: circle(280px at right 500px);
+  }
+
+  .description{
+    font-size: 140%;
+    text-align: justify;
+    letter-spacing: normal;
+  }
+
+  .btn{
+    margin: 0px !important;
+    color: red;
+    padding: 15px;
+  }
+
+  .img{
+    width: 265px;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+
+}
+
+
+
+
+
+
 
 
