@@ -2,15 +2,29 @@
 
 .navbar{
   background: white;
+
+}
+.navbar-brand{
+  color:#027144;
+  font-weight: bold;
+  font-size: 150%;
 }
 
+
+.navbar-brand:hover{
+  color:#027144;
+}
 
 .logo{
   width:90px;
 }
 
-.btn{
-  margin-left: 20px;
+.navbar-toggler{
+  color: green;
+}
+
+.nav-link{
+  margin-left: 40px;
   border-radius: 25px 25px;
   border: none;
   font-family: Poppins;
@@ -19,16 +33,23 @@
   transition: .35s;
 }
 
-.btn:hover{
+.nav-link:hover{
   background: #027144;
   color: white;
   transition: .55s;
 }
 
-.buttons-form{
-  margin-right: 40px;
-}
 
 img{
   margin-left: 40px;
+}
+
+
+.navbar-toggler{
+  color: black;
+
+}
+
+#nav-toggle-button span {
+    background-color: black;
 }
