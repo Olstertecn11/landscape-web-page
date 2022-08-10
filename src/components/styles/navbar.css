@@ -31,12 +31,15 @@
   font-weight: 500;
   color: black;
   transition: .35s;
+  padding: 10px 30px;
 }
 
 .nav-link:hover{
-  background: #027144;
-  color: white;
+  /* background: #027144; */
+  background:#21B44E;
+  color: white !important;
   transition: .55s;
+  padding: 10px 30px;
 }
 
 
@@ -52,4 +55,11 @@ img{
 
 #nav-toggle-button span {
     background-color: black;
+}
+
+
+@media(max-width: 400px){
+  .navbar-brand{
+    font-size: 100%;
+  }
 }
