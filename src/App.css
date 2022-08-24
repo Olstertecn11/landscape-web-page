@@ -66,6 +66,7 @@ h1{
 
 .btn-read{
   background:#21B44E;
+  /* background: #008000; */
 }
 
 .btn-read:hover{
@@ -82,7 +83,8 @@ h1{
     width: 100%;
     z-index: 0;
     height: 75%;
-    background: #027144;
+    /* background: #027144; */
+    background: #008000;
     clip-path: circle(300px at right 600px);
   }
 
@@ -92,16 +94,18 @@ h1{
   }
 
   .title{
-    font-size: 20px;
-    width: 350px;
+    font-size: 18px;
+    width: 330px;
     font-family: Poppins;
     font-weight: 500;
   }
 
   .name{
-    font-size: 24px;
+    font-size: 21px;
     margin-left: 5%;
-    color: #027144;
+    /* color: #027144; */
+    color: #008000;
+    /* color:#21B44E; */
     font-weight: 900;
     font-family: Poppins;
     letter-spacing: 1px;
@@ -127,8 +131,16 @@ h1{
     clip-path: circle(600px at right 800px);
   }
 
+  .main{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url('https://github.com/Olivers11/Images/blob/master/landscape_image.jpg?raw=true');
+    /* height: 60%; */
+    height: 100vh;
+  }
+
+
   .img{
-      width: 500px;
+    position: absolute;
+    width: 500px;
   }
 
   .title{

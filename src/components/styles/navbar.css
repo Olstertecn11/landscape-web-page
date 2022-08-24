@@ -25,13 +25,12 @@
 
 .nav-link{
   margin-left: 40px;
-  border-radius: 25px 25px;
+  border-radius: 5px 25px;
   border: none;
   font-family: Poppins;
   font-weight: 500;
   color: black;
   transition: .35s;
-  padding: 10px 30px;
 }
 
 .nav-link:hover{
@@ -39,7 +38,6 @@
   background:#21B44E;
   color: white !important;
   transition: .55s;
-  padding: 10px 30px;
 }
 
 

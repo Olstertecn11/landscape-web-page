@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './components/Nav';
+import Sections from './components/Sections';
 import img from './components/imgs/undraw_gardening_re_e658.svg';
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       </div>
       
 
-      <div className="container">
+      <div className="container container-description">
       	<div className="row">
 	  <div className="col">
 	    <p>
@@ -40,6 +41,7 @@ function App() {
       
       <div className="circle">
       </div>
+      <Sections />
     </div>
   );
 }
